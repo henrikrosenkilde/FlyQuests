@@ -15,24 +15,24 @@ export const Overlay = () => {
       {progress === 100 && (
         <div className={`intro ${play ? "intro--disappear" : ""}`}>
           <h1 className="logo">
-            WAWATMOS
+            Rosenkilde 🚀
             <div className="spinner">
-              <div className="spinner__image" />
+              {/*<div className="spinner__image" />*/}
             </div>
           </h1>
-          <p className="intro__scroll">Scroll to begin the journey</p>
+          <p className="intro__scroll">Scroll for å lære mer om bjørn, tiger og krokodille</p>
           <button
             className="explore"
             onClick={() => {
               setPlay(true);
             }}
           >
-            Explore
+            Lær mer
           </button>
         </div>
       )}
       <div className={`outro ${end ? "outro--appear" : ""}`}>
-        <p className="outro__text">Wish you had a great flight with us...</p>
+        <p className="outro__text">Håper flyturen gikk fint, og at du lærte litt mer om dyrene!</p>
       </div>
     </div>
   );

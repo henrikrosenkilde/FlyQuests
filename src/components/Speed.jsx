@@ -3,7 +3,7 @@ import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import { AdditiveBlending, DoubleSide, MathUtils } from "three";
 
-const INSTANCES = 240;
+const INSTANCES = 140;
 const MAX_OPACITY = 0.1;
 
 const SpeedShape = () => {
